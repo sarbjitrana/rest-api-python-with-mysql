@@ -15,6 +15,26 @@ CREATE TABLE users (
     password VARCHAR(100) NOT NULL
 );
 ```
+Using environment variables in Python, often loaded from a `.env` file, is a common practice for configuring applications. The `python-dotenv` package is a popular choice for managing `.env` files in Python applications. Here's how you can use it:
+
+### Install python-dotenv:
+
+You can install `python-dotenv` using pip:
+
+```bash
+pip install python-dotenv
+```
+
+### Create a .env file:
+
+Create a `.env` file in your project directory and define your environment variables in the format `KEY=VALUE`. For example:
+
+```
+DB_HOST=localhost
+DB_USER=myuser
+DB_PASSWORD=mypassword
+```
+
 
 ### Step 2: Set up your Python environment
 
